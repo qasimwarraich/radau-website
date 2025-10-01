@@ -6,7 +6,7 @@ import "./styles.css";
 
 <div class="bg-gray-300">
     <Header />
-    <main>
+    <main class="mx-[10%] xl:mx-[30%] min-h-screen">
         <slot />
     </main>
     <Footer />
