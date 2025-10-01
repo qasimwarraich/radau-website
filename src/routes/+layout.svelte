@@ -1,72 +1,13 @@
 <script>
 import Header from "./Header.svelte";
-import Marquee from "./Marquee.svelte";
+import Footer from "./Footer.svelte";
 import "./styles.css";
-
-/**
- * @type {number}
- */
-let bannerExpiry = import.meta.env.VITE_BANNER_EXPIRY;
-
-/**
- * @param {number} expiration
- * @returns {boolean}
- */
-let showBanner = (expiration) => {
-    let now = Math.floor(Date.now() / 1000);
-    if (expiration > now) {
-        return true;
-    }
-    return false;
-};
 </script>
 
-<div class="app bg-gray-300">
+<div class="bg-gray-300">
     <Header />
-
-    {#if showBanner(bannerExpiry)}
-        <Marquee />
-    {/if}
-
     <main>
         <slot />
     </main>
-
-    <footer>
-        <p>121 Freiburgstrasse, 3008 Bern</p>
-        <p>Kollektiv, unorganisiert.</p>
-    </footer>
+    <Footer />
 </div>
-
-<style>
-.app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    width: 100%;
-    max-width: 64rem;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-}
-
-@media (min-width: 480px) {
-    footer {
-        padding: 12px 0;
-    }
-}
-</style>

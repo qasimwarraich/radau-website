@@ -6,9 +6,9 @@ import { Nav } from "$lib/data/nav";
 import radauTextLogo from "$lib/images/radau-logo-text-only.svg";
 </script>
 
-<header class="top-0 lg:sticky pt-2 mb-5 bg-gray-300">
+<header class="top-0 lg:sticky pt-2  bg-gray-300">
     <nav>
-        <ul class="flex flex-wrap text-2xl font-semibold">
+        <ul class="flex text-2xl font-semibold">
             {#each Nav as item, index}
                 {#if index === 0}
                     <li class="flex-grow">
@@ -17,7 +17,7 @@ import radauTextLogo from "$lib/images/radau-logo-text-only.svg";
                             href="{base}{item.path}"
                         >
                             <img
-                                src="{radauTextLogo}"
+                                src={radauTextLogo}
                                 alt="Radau logo home button"
                                 class="w-24 duration-200 hover:scale-110"
                             />
@@ -37,6 +37,7 @@ import radauTextLogo from "$lib/images/radau-logo-text-only.svg";
 </header>
 
 <style>
+
 li {
     padding: 0 0.5rem;
 }
@@ -45,5 +46,3 @@ li {
     text-decoration: underline;
 }
 </style>
-
-

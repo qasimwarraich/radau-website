@@ -1,3 +1,3 @@
 # Radau Website
 
-This is a simple static website for Radau.
+This is a simple static website for Rad.au.

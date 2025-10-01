@@ -1,12 +1,12 @@
 <svelte:head>
     <title>About</title>
-    <meta name="description" content="About this app" />
+    <meta name="Contact" content="Contact info for radau" />
 </svelte:head>
 
-<section class="flex flex-col items-center justify-center">
-    <h1 class="pb-10">Contact us</h1>
+<section class="flex flex-col items-center justify-center text-2xl">
+    <h1 class="pb-5">Contact us</h1>
 
-    <div class="text-2xl">
+    <div class="text-xl">
         <a href="mailto:radau@chistole.ch">radau@chistole.ch</a>
     </div>
 </section>
