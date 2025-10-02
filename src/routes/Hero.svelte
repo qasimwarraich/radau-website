@@ -13,16 +13,22 @@ import radauLogo from "$lib/images/radau-logo.svg";
         Freiburgstrasse 121, 3008 Bern
     </span>
 
-    <div class="flex flex-col sm:flex-row justify-center items-center gap-2">
-        <span class="break-words text-sm">
-            SUNDAY/SONNTAG/DIMANCHE/DOMENICA
-        </span>
-        <span class="font-bold text-sm"> 14:00 - 17:00 </span>
-    </div>
-    <div class="flex flex-col sm:flex-row justify-center items-center gap-2">
-        <span class="break-words text-sm">
-            WEDNESDAY/MITTWOCH/MECREDI/MERCOLEDÌ
-        </span>
-        <span class="font-bold text-sm"> 18:30 - 21:30 </span>
+    <div>
+        <div
+            class="flex flex-col sm:flex-row justify-center items-center gap-2"
+        >
+            <span class="break-words text-sm">
+                SUNDAY/SONNTAG/DIMANCHE/DOMENICA
+            </span>
+            <span class="font-bold text-sm"> 14:00 - 17:00 </span>
+        </div>
+        <div
+            class="flex flex-col sm:flex-row justify-center items-center gap-2"
+        >
+            <span class="break-words text-sm">
+                WEDNESDAY/MITTWOCH/MECREDI/MERCOLEDÌ
+            </span>
+            <span class="font-bold text-sm"> 18:30 - 21:30 </span>
+        </div>
     </div>
 </div>
