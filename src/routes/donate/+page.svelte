@@ -6,7 +6,7 @@ import radauTwint from "$lib/images/radau-twint.jpeg";
     <div>
         <img src={radauTwint} alt="Radau TWINT QR code" class="h-96" />
     </div>
-    <p class="py-10 text-3xl">
+    <p class="py-10 text-3xl text-center">
         Donate via TWINT if you are feeling generous ❤️
     </p>
 </section>

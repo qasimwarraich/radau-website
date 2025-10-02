@@ -9,7 +9,7 @@ import radauLogo from "$lib/images/radau-logo.svg";
         class="w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto h-auto object-contain"
     />
 
-    <span class="font-bold text-lg sm:text-xl break-words">
+    <span class="font-bold text-lg sm:text-md break-words">
         Freiburgstrasse 121, 3008 Bern
     </span>
 
@@ -19,9 +19,6 @@ import radauLogo from "$lib/images/radau-logo.svg";
         </span>
         <span class="font-bold text-sm sm:text-base"> 14:00 - 17:00 </span>
     </div>
-
-    <span class="font-bold">--</span>
-
     <div class="flex flex-col sm:flex-row justify-center items-center gap-2">
         <span class="break-words text-sm sm:text-base">
             WEDNESDAY/MITTWOCH/MECREDI/MERCOLEDÌ

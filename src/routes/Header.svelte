@@ -14,7 +14,7 @@ import radauTextLogo from "$lib/images/radau-logo-text-only.svg";
                     <li class="flex-grow">
                         <a
                             class:active={$page.route.id === item.path}
-                            href="{base}{item.path}"
+                            href={item.path}
                         >
                             <img
                                 src={radauTextLogo}
