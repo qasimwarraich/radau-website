@@ -9,7 +9,7 @@ import Map from "./Map.svelte";
     <meta name="description" content="Rad.au Homepage" />
 </svelte:head>
 
-<section class="flex flex-col items-center justify-center gap-y-10">
+<section class="flex flex-col items-center justify-center gap-y-10 mb-2">
     <Hero />
     <About />
     <Map />

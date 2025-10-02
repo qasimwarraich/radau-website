@@ -6,7 +6,7 @@ import { Nav } from "$lib/data/nav";
 import radauTextLogo from "$lib/images/radau-logo-text-only.svg";
 </script>
 
-<header class="top-0 lg:sticky pt-2  bg-gray-300">
+<header class="top-0 lg:sticky pt-2 bg-gray-300">
     <nav>
         <ul class="flex text-2xl font-semibold">
             {#each Nav as item, index}
@@ -37,7 +37,6 @@ import radauTextLogo from "$lib/images/radau-logo-text-only.svg";
 </header>
 
 <style>
-
 li {
     padding: 0 0.5rem;
 }

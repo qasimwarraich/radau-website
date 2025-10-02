@@ -10,4 +10,3 @@
         <a href="mailto:radau@chistole.ch">radau@chistole.ch</a>
     </div>
 </section>
-

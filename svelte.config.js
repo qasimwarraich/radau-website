@@ -12,7 +12,7 @@ const config = {
             base: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
         },
     },
-	extensions: ['.svelte'],
+    extensions: [".svelte"],
     preprocess: vitePreprocess(),
 };
 
