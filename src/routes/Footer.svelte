@@ -3,7 +3,7 @@
         <div class="mb-1">121 Freiburgstrasse, 3008 Bern</div>
         <div>
             <span class="mr-1">Kollektiv, unorganisiert.</span>
-            <span>Pour la culture du vélo</span>
+            <span>Pour la culture du vélo.</span>
         </div>
     </div>
 </footer>
