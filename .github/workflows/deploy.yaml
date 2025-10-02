@@ -16,13 +16,10 @@ jobs:
           node-version: 20
       - name: Install dependencies
         run: npm install
-      - name: Set timestamp environment variable
-        run: echo "BANNER_EXPIRY=$(date +%s)" >> "$GITHUB_ENV"
       - name: Build
         run: npm run build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-          VITE_BANNER_EXPIRY: '${{ env.BANNER_EXPIRY }}'
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
