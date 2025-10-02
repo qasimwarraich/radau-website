@@ -1,5 +1,4 @@
 <script>
-import { base } from "$app/paths";
 </script>
 
 <div>
@@ -41,7 +40,6 @@ import { base } from "$app/paths";
 
         We look forward to welcoming you at RAD.AU (map below)! Please take a
         moment to read our
-        <a href="{base}/docs/radau-awareness.pdf">awareness concept</a> and, see
-        you soon!
+        <a href="/docs/radau-awareness.pdf">awareness concept</a>, and see you soon!
     </p>
 </div>
