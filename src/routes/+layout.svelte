@@ -9,5 +9,5 @@ import "./styles.css";
     <main class="mx-[10%] xl:mx-[30%] min-h-screen">
         <slot />
     </main>
-    <Footer />
 </div>
+<Footer />
