@@ -1,5 +1,5 @@
 <script>
-import { page } from "$app/stores";
+import { page } from "$app/state";
 import { base } from "$app/paths";
 import { Nav } from "$lib/data/nav";
 
@@ -13,7 +13,7 @@ import radauTextLogo from "$lib/images/radau-logo-text-only.svg";
                 {#if index === 0}
                     <li class="flex-grow">
                         <a
-                            class:active={$page.route.id === item.path}
+                            class:active={page.route.id === item.path}
                             href={item.path}
                         >
                             <img
@@ -26,7 +26,7 @@ import radauTextLogo from "$lib/images/radau-logo-text-only.svg";
                 {:else}
                     <li>
                         <a
-                            class:active={$page.route.id === item.path}
+                            class:active={page.route.id === item.path}
                             href="{base}{item.path}">{item.title}</a
                         >
                     </li>
