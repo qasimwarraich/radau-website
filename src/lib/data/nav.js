@@ -12,5 +12,4 @@
 export const Nav = [
     { title: "Radau", path: "/" },
     { title: "Contact", path: "/contact" },
-    { title: "Donate", path: "/donate" },
 ];
